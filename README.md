@@ -1,7 +1,3 @@
-<!-- ====================================================== -->
-<!-- Animated Header -->
-<!-- ====================================================== -->
-
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=250&section=header&text=Ayush%20Maurya&fontSize=50&fontAlignY=38&animation=fadeIn&desc=AI/ML%20Engineer%20•%20Backend%20Developer%20•%20Robotics%20Engineer&descAlignY=58"/>
 </p>
