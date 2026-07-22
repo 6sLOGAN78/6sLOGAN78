@@ -1,164 +1,93 @@
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=250&section=header&text=Ayush%20Maurya&fontSize=50&fontAlignY=38&animation=fadeIn&desc=AI/ML%20Engineer%20•%20Backend%20Developer%20•%20Robotics%20Engineer&descAlignY=58"/>
+  <img src="https://raw.githubusercontent.com/6sLOGAN78/6sLOGAN78/main/header.svg" width="100%" alt="6sLOGAN78 System Header"/>
 </p>
 
-<!-- ====================================================== -->
-<!-- Typing Animation -->
-<!-- ====================================================== -->
-
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3500&pause=1000&center=true&vCenter=true&width=900&color=00F7FF&lines=Hi+%F0%9F%91%8B+I'm+Ayush+Maurya;AI%2FML+Engineer;Backend+Systems+Developer;Robotics+Engineer;Open+Source+Contributor;Building+Scalable+ML+Systems"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&amp;size=20&amp;duration=3000&amp;pause=1000&amp;center=true&amp;vCenter=true&amp;width=900&amp;color=FFFFFF&amp;background=03030300&amp;lines=SYS.CORE_ESTABLISHED;INITIALIZING+DEVELOPER+INTERFACE...;AI%2FML+ENGINEERING+ACTIVE;ROBOTICS+PROTOCOLS+ARMED"/>
 </p>
 
 ---
 
-# 🚀 Tech Stack
+# ⚡ System Service Diagnostic
 
-## Languages
+```bash
+$ systemctl status developer --no-pager
+● developer.service - Ayush Maurya (6sLOGAN78)
+   Loaded: loaded (/etc/systemd/system/developer.service; enabled; vendor preset: enabled)
+   Active: active (running) since Wed 2026-07-22; 6h ago
+   Main PID: 6878 (engineer)
+   Status: "Working on AI/ML pipelines & Robotics control loops"
+   Tasks: 8 (limit: 4915)
+   Memory: 16.0G
+   CGroup: /system.slice/developer.service
+           ├─6878 /usr/bin/python3 -m torch --cuda
+           ├─6879 /usr/bin/ros2 run navigation_server
+           └─6880 /usr/bin/go run telemetry_api.go
+
+$ cat capabilities.json
+```
+
+```text
+┌────────────────────────────────────────────────────────┐
+│  SYSTEM SPECIFICATIONS // CAPABILITY MATRIX            │
+├──────────────┬─────────────────────────────────────────┤
+│ Languages    │ Python • C/C++ • Go • Rust • Java       │
+│              │ Kotlin • Bash                           │
+├──────────────┼─────────────────────────────────────────┤
+│ AI / ML      │ PyTorch • TensorFlow • OpenCV • Pandas  │
+│              │ NumPy • HuggingFace • LangChain         │
+├──────────────┼─────────────────────────────────────────┤
+│ Backend      │ Go • Node.js • PostgreSQL • MongoDB     │
+│              │ MySQL • Redis • Nginx                   │
+├──────────────┼─────────────────────────────────────────┤
+│ Cloud/DevOps │ Docker • Kubernetes • AWS • Linux       │
+│              │ Git • GitHub Actions                    │
+├──────────────┼─────────────────────────────────────────┤
+│ Robotics     │ ROS2 • Gazebo • OpenCV • Arduino        │
+└──────────────┴─────────────────────────────────────────┘
+```
+
+---
+
+# ⚡ Active Registry Entries (Projects)
+
+```
+[DIR] VitalML-Reproduction  --  Reproduction of medical imaging models.
+[DIR] OneIITP-Chatbot       --  Autonomous assistant framework.
+[DIR] SciFlow               --  Scientific workflow automation.
+[DIR] Transformer-Step      --  Interactive PyTorch transformer architecture.
+[DIR] Flux-Shortener        --  High-throughput URL compression system.
+```
+
+---
+
+# 📊 Telemetry Statistics
 
 <p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=6sLOGAN78&amp;show_icons=true&amp;bg_color=030303&amp;title_color=ffffff&amp;text_color=a1a1aa&amp;icon_color=ffffff&amp;border_color=27272a&amp;border_radius=8" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6sLOGAN78&amp;layout=compact&amp;bg_color=030303&amp;title_color=ffffff&amp;text_color=a1a1aa&amp;border_color=27272a&amp;border_radius=8" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,go,rust,kotlin,java,bash"/>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=6sLOGAN78&amp;background=030303&amp;title=ffffff&amp;currStreakNum=ffffff&amp;currStreakLabel=a1a1aa&amp;dates=52525b&amp;ring=ffffff&amp;fire=ffffff&amp;stroke=27272a&amp;currStreakNum=ffffff&amp;currStreakLabel=a1a1aa&amp;border_radius=8" />
+</p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=6sLOGAN78&amp;bg_color=030303&amp;color=a1a1aa&amp;line=ffffff&amp;point=ffffff&amp;area=true&amp;area_color=27272a&amp;hide_border=false&amp;custom_title=RECENT%20VERIFIED%20COMMITS&amp;radius=8" />
 </p>
 
 ---
 
-## AI / ML
+# 📈 Diagnostic Metrics
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv"/>
-
-</p>
-
-**Also Experienced With**
-
-- HuggingFace
-- LangChain
-- Sentence Transformers
-- LightGBM
-- XGBoost
-- Scikit-Learn
-- Pandas
-- NumPy
-
----
-
-## Backend
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=go,nodejs,postgres,mongodb,mysql,redis"/>
-
+  <img src="https://raw.githubusercontent.com/6sLOGAN78/6sLOGAN78/main/github-metrics.svg" width="100%" alt="6sLOGAN78 Diagnostics Matrix"/>
 </p>
 
 ---
 
-## Cloud & DevOps
+# 👀 Terminal Connections
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,linux,git,githubactions,nginx"/>
-
+  <img src="https://komarev.com/ghpvc/?username=6sLOGAN78&amp;style=flat-square&amp;color=27272a&amp;label=connections"/>
 </p>
-
----
-
-## Robotics
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=arduino"/>
-
-</p>
-
-ROS2 • Gazebo • OpenCV
-
----
-
-# 📊 GitHub Statistics
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=6sLOGAN78&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6sLOGAN78&layout=compact&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=6sLOGAN78&theme=tokyonight"/>
-
-</p>
-
----
-
-# 📈 Activity Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=6sLOGAN78&theme=tokyo-night"/>
-
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=6sLOGAN78&theme=tokyonight&margin-w=15&margin-h=15&row=2&column=4"/>
-
-</p>
-
----
-
-# 🐍 Contribution Snake
-
-> **Requires GitHub Actions (instructions below).**
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/6sLOGAN78/6sLOGAN78/output/github-contribution-grid-snake-dark.svg"/>
-
-</p>
-
----
-
-# 📊 GitHub Metrics
-
-> **Requires GitHub Actions (instructions below).**
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/6sLOGAN78/6sLOGAN78/main/github-metrics.svg"/>
-
-</p>
-
----
-
-# 👀 Visitors
-
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=6sLOGAN78&style=for-the-badge&color=blue"/>
-
-</p>
-
----
-
-# ⭐ Featured Projects
-
-- 🚀 VitalML Reproduction
-- 🤖 OneIITP Chatbot
-- 📚 SciFlow
-- 🔥 Transformer Step-by-Step
-- ⚡ Flux URL Shortener
-
----
-
-# 💡 Quote
-
-> **"The best way to predict the future is to build it."**

@@ -28,9 +28,11 @@ jobs:
 
           template: classic
 
-          base: header, activity, community, repositories, metadata
+          config_theme: terminal
 
           config_timezone: Asia/Kolkata
+
+          base: header, activity, community, repositories, metadata
 
           plugin_languages: yes
 
@@ -45,3 +47,20 @@ jobs:
           plugin_habits: yes
 
           plugin_stars: yes
+
+          extras_css: |
+            svg {
+              background: #030303 !important;
+              --color-text: #fafafa !important;
+              --color-border: rgba(255, 255, 255, 0.08) !important;
+              --color-calendar-graph-day-bg: #09090b !important;
+              --color-calendar-graph-day-L1: #161618 !important;
+              --color-calendar-graph-day-L2: #242427 !important;
+              --color-calendar-graph-day-L3: #3f3f46 !important;
+              --color-calendar-graph-day-L4: #fafafa !important;
+            }
+            .graph { stroke: #fafafa !important; }
+            .field, .title, h2, h2.field, h3, p, span, div, a, text {
+              color: #fafafa !important;
+              fill: #fafafa !important;
+            }
