@@ -8,44 +8,48 @@
 
 ---
 
-# System Service Diagnostic
+# Profile
 
-```bash
-$ systemctl status developer --no-pager
-● developer.service - Ayush Maurya (6sLOGAN78)
-   Loaded: loaded (/etc/systemd/system/developer.service; enabled; vendor preset: enabled)
-   Active: active (running) since Wed 2026-07-22; 6h ago
-   Main PID: 6878 (engineer)
-   Status: "Working on AI/ML pipelines & Robotics control loops"
-   Tasks: 8 (limit: 4915)
-   Memory: 16.0G
-   CGroup: /system.slice/developer.service
-           ├─6878 /usr/bin/python3 -m torch --cuda
-           ├─6879 /usr/bin/ros2 run navigation_server
-           └─6880 /usr/bin/go run telemetry_api.go
+> *I bridge the gap between autonomous deep learning systems, physical hardware control loops, and high-performance backend pipelines.*
+>
+> I am an undergraduate Computer Science student specializing in AI/ML engineering, distributed backend development, and robotics. My work focuses on training specialized transformer architectures, designing scientific workflow orchestrators (like SciFlow), and modeling medical image reproduction algorithms (VitalML). I build low-level performance pipelines and robotics control systems leveraging ROS2 and Gazebo.
 
-$ cat capabilities.json
-```
+---
 
-```text
-┌────────────────────────────────────────────────────────┐
-│  SYSTEM SPECIFICATIONS // CAPABILITY MATRIX            │
-├──────────────┬─────────────────────────────────────────┤
-│ Languages    │ Python • C/C++ • Go • Rust • Java       │
-│              │ Kotlin • Bash                           │
-├──────────────┼─────────────────────────────────────────┤
-│ AI / ML      │ PyTorch • TensorFlow • OpenCV • Pandas  │
-│              │ NumPy • HuggingFace • LangChain         │
-├──────────────┼─────────────────────────────────────────┤
-│ Backend      │ Go • Node.js • PostgreSQL • MongoDB     │
-│              │ MySQL • Redis • Nginx                   │
-├──────────────┼─────────────────────────────────────────┤
-│ Cloud/DevOps │ Docker • Kubernetes • AWS • Linux       │
-│              │ Git • GitHub Actions                    │
-├──────────────┼─────────────────────────────────────────┤
-│ Robotics     │ ROS2 • Gazebo • OpenCV • Arduino        │
-└──────────────┴─────────────────────────────────────────┘
-```
+# Architecture & Domains
+
+### THE THEORETICAL
+<p align="left">
+  <img src="https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/ROS2-000000?style=for-the-badge&amp;logo=ros&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Gazebo-000000?style=for-the-badge&amp;logo=gazebo&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-000000?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" />
+</p>
+
+### THE TACTICAL
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&amp;logo=python&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-000000?style=for-the-badge&amp;logo=go&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-000000?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&amp;logo=rust&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Kotlin-000000?style=for-the-badge&amp;logo=kotlin&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&amp;logo=redis&amp;logoColor=white" />
+</p>
+
+### THE ORCHESTRATION
+<p align="left">
+  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&amp;logo=docker&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-000000?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&amp;logo=amazonwebservices&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&amp;logo=linux&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&amp;logo=git&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-000000?style=for-the-badge&amp;logo=nginx&amp;logoColor=white" />
+</p>
 
 ---
 
