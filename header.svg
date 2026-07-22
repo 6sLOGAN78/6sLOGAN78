@@ -43,6 +43,21 @@
         100% { transform: translateY(0); }
       }
 
+      /* Falling Code Animation */
+      .falling-code {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        fill: #ffffff;
+        opacity: 0;
+        animation: fall 5s linear infinite;
+      }
+      @keyframes fall {
+        0% { transform: translateY(-120px); opacity: 0; }
+        10% { opacity: 0.08; }
+        90% { opacity: 0.08; }
+        100% { transform: translateY(300px); opacity: 0; }
+      }
+
       .neon-border {
         stroke: rgba(255, 255, 255, 0.08);
       }
@@ -63,6 +78,34 @@
 
   <!-- Glassmorphic panel -->
   <rect x="20" y="20" width="860" height="280" rx="8" fill="rgba(10, 10, 10, 0.75)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" class="neon-border"/>
+
+  <!-- Matrix Falling Code (Clipped) -->
+  <g clip-path="url(#terminal-clip)">
+    <text x="80" y="0" class="falling-code" style="animation-delay: 0s; animation-duration: 5.2s;">
+      <tspan x="80" dy="12">1</tspan><tspan x="80" dy="12">0</tspan><tspan x="80" dy="12">5</tspan><tspan x="80" dy="12">F</tspan><tspan x="80" dy="12">A</tspan><tspan x="80" dy="12">0</tspan><tspan x="80" dy="12">9</tspan>
+    </text>
+    <text x="180" y="0" class="falling-code" style="animation-delay: 2.1s; animation-duration: 4.8s;">
+      <tspan x="180" dy="12">0</tspan><tspan x="180" dy="12">1</tspan><tspan x="180" dy="12">B</tspan><tspan x="180" dy="12">C</tspan><tspan x="180" dy="12">8</tspan><tspan x="180" dy="12">2</tspan><tspan x="180" dy="12">7</tspan>
+    </text>
+    <text x="280" y="0" class="falling-code" style="animation-delay: 1s; animation-duration: 6s;">
+      <tspan x="280" dy="12">E</tspan><tspan x="280" dy="12">D</tspan><tspan x="280" dy="12">9</tspan><tspan x="280" dy="12">0</tspan><tspan x="280" dy="12">F</tspan><tspan x="280" dy="12">3</tspan><tspan x="280" dy="12">1</tspan>
+    </text>
+    <text x="380" y="0" class="falling-code" style="animation-delay: 3.5s; animation-duration: 4.2s;">
+      <tspan x="380" dy="12">C</tspan><tspan x="380" dy="12">O</tspan><tspan x="380" dy="12">R</tspan><tspan x="380" dy="12">E</tspan><tspan x="380" dy="12">8</tspan><tspan x="380" dy="12">A</tspan><tspan x="380" dy="12">9</tspan>
+    </text>
+    <text x="480" y="0" class="falling-code" style="animation-delay: 1.5s; animation-duration: 5.5s;">
+      <tspan x="480" dy="12">7</tspan><tspan x="480" dy="12">2</tspan><tspan x="480" dy="12">X</tspan><tspan x="480" dy="12">D</tspan><tspan x="480" dy="12">0</tspan><tspan x="480" dy="12">B</tspan><tspan x="480" dy="12">5</tspan>
+    </text>
+    <text x="580" y="0" class="falling-code" style="animation-delay: 0.5s; animation-duration: 4.9s;">
+      <tspan x="580" dy="12">3</tspan><tspan x="580" dy="12">9</tspan><tspan x="580" dy="12">E</tspan><tspan x="580" dy="12">F</tspan><tspan x="580" dy="12">1</tspan><tspan x="580" dy="12">0</tspan><tspan x="580" dy="12">4</tspan>
+    </text>
+    <text x="680" y="0" class="falling-code" style="animation-delay: 2.8s; animation-duration: 5.8s;">
+      <tspan x="680" dy="12">A</tspan><tspan x="680" dy="12">C</tspan><tspan x="680" dy="12">9</tspan><tspan x="680" dy="12">2</tspan><tspan x="680" dy="12">0</tspan><tspan x="680" dy="12">7</tspan><tspan x="680" dy="12">1</tspan>
+    </text>
+    <text x="800" y="0" class="falling-code" style="animation-delay: 4s; animation-duration: 4.5s;">
+      <tspan x="800" dy="12">E</tspan><tspan x="800" dy="12">4</tspan><tspan x="800" dy="12">B</tspan><tspan x="800" dy="12">F</tspan><tspan x="800" dy="12">D</tspan><tspan x="800" dy="12">0</tspan><tspan x="800" dy="12">2</tspan>
+    </text>
+  </g>
 
   <!-- Scanning Line (Clipped) -->
   <g clip-path="url(#terminal-clip)">

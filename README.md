@@ -8,7 +8,7 @@
 
 ---
 
-# ⚡ System Service Diagnostic
+# System Service Diagnostic
 
 ```bash
 $ systemctl status developer --no-pager
@@ -49,7 +49,7 @@ $ cat capabilities.json
 
 ---
 
-# ⚡ Active Registry Entries (Projects)
+# Active Registry Entries (Projects)
 
 ```
 [DIR] VitalML-Reproduction  --  Reproduction of medical imaging models.
@@ -61,7 +61,7 @@ $ cat capabilities.json
 
 ---
 
-# 📊 Telemetry Statistics
+# Telemetry Statistics
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=6sLOGAN78&amp;show_icons=true&amp;bg_color=030303&amp;title_color=ffffff&amp;text_color=a1a1aa&amp;icon_color=ffffff&amp;border_color=27272a&amp;border_radius=8" />
@@ -78,15 +78,15 @@ $ cat capabilities.json
 
 ---
 
-# 📈 Diagnostic Metrics
+# Diagnostic Metrics
 
 <p align="center">
-  <img src="github-metrics.svg" width="100%" alt="6sLOGAN78 Diagnostics Matrix"/>
+  <img src="github-metrics.svg" width="800" alt="6sLOGAN78 Diagnostics Matrix"/>
 </p>
 
 ---
 
-# 👀 Terminal Connections
+# Terminal Connections
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=6sLOGAN78&amp;style=flat-square&amp;color=27272a&amp;label=connections"/>
