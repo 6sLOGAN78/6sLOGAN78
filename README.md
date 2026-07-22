@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/6sLOGAN78/6sLOGAN78/main/header.svg" width="100%" alt="6sLOGAN78 System Header"/>
+  <img src="header.svg" width="100%" alt="6sLOGAN78 System Header"/>
 </p>
 
 <p align="center">
@@ -81,7 +81,7 @@ $ cat capabilities.json
 # 📈 Diagnostic Metrics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/6sLOGAN78/6sLOGAN78/main/github-metrics.svg" width="100%" alt="6sLOGAN78 Diagnostics Matrix"/>
+  <img src="github-metrics.svg" width="100%" alt="6sLOGAN78 Diagnostics Matrix"/>
 </p>
 
 ---
