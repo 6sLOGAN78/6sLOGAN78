@@ -10,9 +10,9 @@
 
 # Profile
 
-> *I bridge the gap between autonomous deep learning systems, physical hardware control loops, and high-performance backend pipelines.*
+> *I bridge the gap between autonomous deep learning systems and high-performance backend pipelines.*
 >
-> I am an undergraduate Computer Science student specializing in AI/ML engineering, distributed backend development, and robotics. My work focuses on training specialized transformer architectures, designing scientific workflow orchestrators (like SciFlow), and modeling medical image reproduction algorithms (VitalML). I build low-level performance pipelines and robotics control systems leveraging ROS2 and Gazebo.
+> I am an engineer specializing in AI/ML systems and backend development. My work focuses on training specialized transformer architectures and designing high-performance backend pipelines. I construct low-level performance systems and concurrent backend frameworks.
 
 ---
 
@@ -22,8 +22,6 @@
 <p align="left">
   <img src="https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/ROS2-000000?style=for-the-badge&amp;logo=ros&amp;logoColor=white" />
-  <img src="https://img.shields.io/badge/Gazebo-000000?style=for-the-badge&amp;logo=gazebo&amp;logoColor=white" />
   <img src="https://img.shields.io/badge/OpenCV-000000?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" />
 </p>
 
@@ -50,18 +48,6 @@
   <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" />
   <img src="https://img.shields.io/badge/Nginx-000000?style=for-the-badge&amp;logo=nginx&amp;logoColor=white" />
 </p>
-
----
-
-# Active Registry Entries (Projects)
-
-```
-[DIR] VitalML-Reproduction  --  Reproduction of medical imaging models.
-[DIR] OneIITP-Chatbot       --  Autonomous assistant framework.
-[DIR] SciFlow               --  Scientific workflow automation.
-[DIR] Transformer-Step      --  Interactive PyTorch transformer architecture.
-[DIR] Flux-Shortener        --  High-throughput URL compression system.
-```
 
 ---
 
