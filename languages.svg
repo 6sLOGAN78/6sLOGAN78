@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 260" width="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&amp;family=Orbitron:wght@600;800&amp;display=swap');
+      
+      .title { font-family: 'Orbitron', sans-serif; font-weight: 800; font-size: 13px; fill: #ffffff; letter-spacing: 2px; }
+      .subtitle { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #71717a; letter-spacing: 1px; }
+      .label { font-family: 'JetBrains Mono', monospace; font-size: 12px; fill: #fafafa; font-weight: 600; }
+      .percent { font-family: 'JetBrains Mono', monospace; font-size: 12px; fill: #a1a1aa; font-weight: 400; }
+      .center-title { font-family: 'Orbitron', sans-serif; font-size: 12px; fill: #ffffff; font-weight: 800; text-anchor: middle; }
+      .center-sub { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #71717a; text-anchor: middle; letter-spacing: 1px; }
+      
+      /* Donut Segment Styles */
+      .segment {
+        transition: all 0.3s ease;
+        transform-origin: 150px 135px;
+      }
+      .segment:hover {
+        stroke-width: 32;
+        filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.4));
+      }
+      
+      /* Progress Bar Base */
+      .bar-bg { fill: #18181b; rx: 3px; }
+    </style>
+    
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255, 255, 255, 0.02)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Container Background -->
+  <rect width="650" height="260" rx="10" fill="#030303" stroke="#27272a" stroke-width="1.5" />
+  <rect width="650" height="260" rx="10" fill="url(#grid)" />
+
+  <!-- Header Section -->
+  <g transform="translate(25, 30)">
+    <text x="0" y="0" class="title">MOST USED LANGUAGES</text>
+    <text x="0" y="16" class="subtitle">// TELEMETRY &amp; CODEBASE DISTRIBUTION</text>
+    <line x1="0" y1="26" x2="600" y2="26" stroke="#27272a" stroke-width="1" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Donut Pie Chart (Center: X=150, Y=145) -->
+  <g transform="translate(0, 15)">
+    <!-- Base track ring -->
+    <circle cx="150" cy="135" r="70" fill="none" stroke="#18181b" stroke-width="26" />
+
+    <!-- Segment 1: Python (35.0%) -->
+    <circle class="segment" cx="150" cy="135" r="70" fill="none" stroke="#ffffff" stroke-width="26"
+            stroke-dasharray="153.94 439.82" stroke-dashoffset="0" transform="rotate(-90 150 135)" />
+
+    <!-- Segment 2: Go (25.0%) -->
+    <circle class="segment" cx="150" cy="135" r="70" fill="none" stroke="#d4d4d8" stroke-width="26"
+            stroke-dasharray="109.96 439.82" stroke-dashoffset="-153.94" transform="rotate(-90 150 135)" />
+
+    <!-- Segment 3: C++ (18.0%) -->
+    <circle class="segment" cx="150" cy="135" r="70" fill="none" stroke="#a1a1aa" stroke-width="26"
+            stroke-dasharray="79.17 439.82" stroke-dashoffset="-263.90" transform="rotate(-90 150 135)" />
+
+    <!-- Segment 4: Rust (12.0%) -->
+    <circle class="segment" cx="150" cy="135" r="70" fill="none" stroke="#71717a" stroke-width="26"
+            stroke-dasharray="52.78 439.82" stroke-dashoffset="-343.07" transform="rotate(-90 150 135)" />
+
+    <!-- Segment 5: Java (6.0%) -->
+    <circle class="segment" cx="150" cy="135" r="70" fill="none" stroke="#3f3f46" stroke-width="26"
+            stroke-dasharray="26.39 439.82" stroke-dashoffset="-395.85" transform="rotate(-90 150 135)" />
+
+    <!-- Segment 6: TypeScript (4.0%) -->
+    <circle class="segment" cx="150" cy="135" r="70" fill="none" stroke="#27272a" stroke-width="26"
+            stroke-dasharray="17.59 439.82" stroke-dashoffset="-422.24" transform="rotate(-90 150 135)" />
+
+    <!-- Donut Hole Content -->
+    <circle cx="150" cy="135" r="54" fill="#030303" stroke="#27272a" stroke-width="1" />
+    <text x="150" y="132" class="center-title">100%</text>
+    <text x="150" y="146" class="center-sub">STACK BREAKDOWN</text>
+  </g>
+
+  <!-- Legend & Percentage Bars Section (X=270 to X=610) -->
+  <g transform="translate(280, 85)">
+    <!-- 1. Python -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" fill="#ffffff" />
+      <text x="18" y="9" class="label">Python</text>
+      <text x="280" y="9" class="percent" text-anchor="end">35.0%</text>
+      <rect x="110" y="2" width="115" height="6" class="bar-bg" />
+      <rect x="110" y="2" width="40.25" height="6" rx="3" fill="#ffffff" />
+    </g>
+
+    <!-- 2. Go -->
+    <g transform="translate(0, 24)">
+      <rect x="0" y="0" width="10" height="10" rx="2" fill="#d4d4d8" />
+      <text x="18" y="9" class="label">Go</text>
+      <text x="280" y="9" class="percent" text-anchor="end">25.0%</text>
+      <rect x="110" y="2" width="115" height="6" class="bar-bg" />
+      <rect x="110" y="2" width="28.75" height="6" rx="3" fill="#d4d4d8" />
+    </g>
+
+    <!-- 3. C++ -->
+    <g transform="translate(0, 48)">
+      <rect x="0" y="0" width="10" height="10" rx="2" fill="#a1a1aa" />
+      <text x="18" y="9" class="label">C++</text>
+      <text x="280" y="9" class="percent" text-anchor="end">18.0%</text>
+      <rect x="110" y="2" width="115" height="6" class="bar-bg" />
+      <rect x="110" y="2" width="20.7" height="6" rx="3" fill="#a1a1aa" />
+    </g>
+
+    <!-- 4. Rust -->
+    <g transform="translate(0, 72)">
+      <rect x="0" y="0" width="10" height="10" rx="2" fill="#71717a" />
+      <text x="18" y="9" class="label">Rust</text>
+      <text x="280" y="9" class="percent" text-anchor="end">12.0%</text>
+      <rect x="110" y="2" width="115" height="6" class="bar-bg" />
+      <rect x="110" y="2" width="13.8" height="6" rx="3" fill="#71717a" />
+    </g>
+
+    <!-- 5. Java -->
+    <g transform="translate(0, 96)">
+      <rect x="0" y="0" width="10" height="10" rx="2" fill="#3f3f46" />
+      <text x="18" y="9" class="label">Java</text>
+      <text x="280" y="9" class="percent" text-anchor="end">6.0%</text>
+      <rect x="110" y="2" width="115" height="6" class="bar-bg" />
+      <rect x="110" y="2" width="6.9" height="6" rx="3" fill="#3f3f46" />
+    </g>
+
+    <!-- 6. TypeScript -->
+    <g transform="translate(0, 120)">
+      <rect x="0" y="0" width="10" height="10" rx="2" fill="#27272a" />
+      <text x="18" y="9" class="label">TypeScript</text>
+      <text x="280" y="9" class="percent" text-anchor="end">4.0%</text>
+      <rect x="110" y="2" width="115" height="6" class="bar-bg" />
+      <rect x="110" y="2" width="4.6" height="6" rx="3" fill="#27272a" />
+    </g>
+  </g>
+
+  <!-- Bottom Accent / Status line -->
+  <g transform="translate(25, 238)">
+    <circle cx="4" cy="-4" r="3" fill="#ffffff" />
+    <text x="14" y="-1" class="subtitle" style="font-size: 8px;">SYSTEM MATRIX // VERIFIED ACCORDING TO REPOSITORY TELEMETRY</text>
+  </g>
+</svg>

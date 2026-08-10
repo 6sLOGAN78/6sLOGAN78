@@ -1,22 +1,49 @@
+<h1 align="center">
+  <a href="https://github.com/6sLOGAN78">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&amp;weight=700&amp;size=38&amp;duration=2500&amp;pause=1000&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=50&amp;color=FFFFFF&amp;background=03030300&amp;lines=6sLOGAN78;AI%2FML+ENGINEER;BACKEND+ARCHITECT;ROBOTICS+SYSTEMS" alt="6sLOGAN78 Name Header" />
+  </a>
+</h1>
+
 <p align="center">
-  <img src="header.svg" width="100%" alt="6sLOGAN78 System Header"/>
+  <code>AI/ML SYSTEMS</code> &nbsp;•&nbsp; <code>HIGH-PERFORMANCE BACKENDS</code> &nbsp;•&nbsp; <code>CONCURRENT ARCHITECTURES</code>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&amp;size=20&amp;duration=3000&amp;pause=1000&amp;center=true&amp;vCenter=true&amp;width=900&amp;color=FFFFFF&amp;background=03030300&amp;lines=SYS.CORE_ESTABLISHED;INITIALIZING+DEVELOPER+INTERFACE...;AI%2FML+ENGINEERING+ACTIVE;ROBOTICS+PROTOCOLS+ARMED"/>
+  <a href="#profile">Profile</a> •
+  <a href="#language-distribution">Languages</a> •
+  <a href="#architecture--domains">Stack</a> •
+  <a href="#telemetry-statistics">Telemetry</a> •
+  <a href="#terminal-connections">Connections</a>
 </p>
 
 ---
 
-# Profile
+## Profile
 
 > *I bridge the gap between autonomous deep learning systems and high-performance backend pipelines.*
->
-> I am an engineer specializing in AI/ML systems and backend development. My work focuses on training specialized transformer architectures and designing high-performance backend pipelines. I construct low-level performance systems and concurrent backend frameworks.
+
+I am an engineer specializing in **AI/ML systems** and **backend infrastructure**. My work focuses on training specialized transformer architectures, optimizing inference pipelines, and designing high-throughput concurrent backend systems.
+
+- ⚡ **Focus Areas**: Deep Learning Architecture, Distributed Systems, Low-Latency Networking
+- 🧠 **Research & Dev**: Custom Transformer Pipelines, C++ CUDA Accelerators, Go Microservices
+- 🛠️ **Design Philosophy**: Minimalist, High-Performance, Mathematically Rigorous
 
 ---
 
-# Architecture & Domains
+## Language Distribution
+
+<p align="center">
+  <img src="languages.svg" width="100%" alt="6sLOGAN78 Most Used Languages Pie Chart"/>
+</p>
+
+<p align="center">
+  <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6sLOGAN78&amp;layout=donut&amp;bg_color=030303&amp;title_color=ffffff&amp;text_color=a1a1aa&amp;border_color=27272a&amp;border_radius=8" />
+  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=6sLOGAN78&amp;show_icons=true&amp;bg_color=030303&amp;title_color=ffffff&amp;text_color=a1a1aa&amp;icon_color=ffffff&amp;border_color=27272a&amp;border_radius=8" />
+</p>
+
+---
+
+## Architecture & Domains
 
 ### THE THEORETICAL
 <p align="left">
@@ -51,12 +78,7 @@
 
 ---
 
-# Telemetry Statistics
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=6sLOGAN78&amp;show_icons=true&amp;bg_color=030303&amp;title_color=ffffff&amp;text_color=a1a1aa&amp;icon_color=ffffff&amp;border_color=27272a&amp;border_radius=8" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6sLOGAN78&amp;layout=compact&amp;bg_color=030303&amp;title_color=ffffff&amp;text_color=a1a1aa&amp;border_color=27272a&amp;border_radius=8" />
-</p>
+## Telemetry Statistics
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=6sLOGAN78&amp;background=030303&amp;title=ffffff&amp;currStreakNum=ffffff&amp;currStreakLabel=a1a1aa&amp;dates=52525b&amp;ring=ffffff&amp;fire=ffffff&amp;stroke=27272a&amp;currStreakNum=ffffff&amp;currStreakLabel=a1a1aa&amp;border_radius=8" />
@@ -68,7 +90,7 @@
 
 ---
 
-# Diagnostic Metrics
+## Diagnostic Metrics
 
 <p align="center">
   <img src="github-metrics.svg" width="800" alt="6sLOGAN78 Diagnostics Matrix"/>
@@ -76,7 +98,7 @@
 
 ---
 
-# Terminal Connections
+## Terminal Connections
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=6sLOGAN78&amp;style=flat-square&amp;color=27272a&amp;label=connections"/>
