@@ -10,9 +10,9 @@
 
 <p align="center">
   <a href="#profile">Profile</a> •
+  <a href="#telemetry-statistics">Telemetry</a> •
   <a href="#language-distribution">Languages</a> •
   <a href="#architecture--domains">Stack</a> •
-  <a href="#telemetry-statistics">Telemetry</a> •
   <a href="#terminal-connections">Connections</a>
 </p>
 
@@ -27,6 +27,18 @@ I am an engineer specializing in **AI/ML systems** and **backend infrastructure*
 - ⚡ **Focus Areas**: Deep Learning Architecture, Distributed Systems, Low-Latency Networking
 - 🧠 **Research & Dev**: Custom Transformer Pipelines, C++ CUDA Accelerators, Go Microservices
 - 🛠️ **Design Philosophy**: Minimalist, High-Performance, Mathematically Rigorous
+
+---
+
+## Telemetry Statistics
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=6sLOGAN78&amp;background=030303&amp;title=ffffff&amp;currStreakNum=ffffff&amp;currStreakLabel=a1a1aa&amp;dates=52525b&amp;ring=ffffff&amp;fire=ffffff&amp;stroke=27272a&amp;currStreakNum=ffffff&amp;currStreakLabel=a1a1aa&amp;border_radius=8" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=6sLOGAN78&amp;bg_color=030303&amp;color=a1a1aa&amp;line=ffffff&amp;point=ffffff&amp;area=true&amp;area_color=27272a&amp;hide_border=false&amp;custom_title=RECENT%20VERIFIED%20COMMITS&amp;radius=8" />
+</p>
 
 ---
 
@@ -74,18 +86,6 @@ I am an engineer specializing in **AI/ML systems** and **backend infrastructure*
   <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&amp;logo=git&amp;logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" />
   <img src="https://img.shields.io/badge/Nginx-000000?style=for-the-badge&amp;logo=nginx&amp;logoColor=white" />
-</p>
-
----
-
-## Telemetry Statistics
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=6sLOGAN78&amp;background=030303&amp;title=ffffff&amp;currStreakNum=ffffff&amp;currStreakLabel=a1a1aa&amp;dates=52525b&amp;ring=ffffff&amp;fire=ffffff&amp;stroke=27272a&amp;currStreakNum=ffffff&amp;currStreakLabel=a1a1aa&amp;border_radius=8" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=6sLOGAN78&amp;bg_color=030303&amp;color=a1a1aa&amp;line=ffffff&amp;point=ffffff&amp;area=true&amp;area_color=27272a&amp;hide_border=false&amp;custom_title=RECENT%20VERIFIED%20COMMITS&amp;radius=8" />
 </p>
 
 ---
