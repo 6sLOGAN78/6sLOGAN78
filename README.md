@@ -90,14 +90,6 @@ I am an engineer specializing in **AI/ML systems** and **backend infrastructure*
 
 ---
 
-## Diagnostic Metrics
-
-<p align="center">
-  <img src="github-metrics.svg" width="800" alt="6sLOGAN78 Diagnostics Matrix"/>
-</p>
-
----
-
 ## Terminal Connections
 
 <p align="center">
