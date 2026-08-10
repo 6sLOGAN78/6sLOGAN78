@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&amp;family=Orbitron:wght@700;900&amp;display=swap');
+      
+      .term-header { font-family: 'Orbitron', sans-serif; font-size: 11px; fill: #a1a1aa; letter-spacing: 1.5px; font-weight: 700; }
+      .term-ascii { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #ffffff; font-weight: 800; white-space: pre; }
+      .term-text { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #a1a1aa; }
+      .term-cmd { fill: #ffffff; font-weight: 700; }
+      .term-accent { fill: #d4d4d8; font-weight: 600; }
+      .term-dim { fill: #52525b; }
+      
+      /* Cursor Blink */
+      .cursor { fill: #ffffff; animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      
+      /* Scanline Overlay */
+      .scanline {
+        animation: scan 6s ease-in-out infinite;
+        opacity: 0.12;
+      }
+      @keyframes scan {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(195px); }
+        100% { transform: translateY(0); }
+      }
+    </style>
+    
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255, 255, 255, 0.02)" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="clip">
+      <rect x="0" y="0" width="850" height="200" rx="8" />
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="200" rx="8" fill="#030303" stroke="#27272a" stroke-width="1.5" />
+  <rect width="850" height="200" rx="8" fill="url(#grid)" />
+
+  <!-- Scanning line -->
+  <g clip-path="url(#clip)">
+    <line x1="0" y1="0" x2="850" y2="0" stroke="#ffffff" stroke-width="1.5" class="scanline" />
+  </g>
+
+  <!-- Window Header Bar -->
+  <path d="M 0 8 C 0 3.58 3.58 0 8 0 L 842 0 C 846.42 0 850 3.58 850 8 L 850 30 L 0 30 Z" fill="#09090b" stroke="#27272a" stroke-width="1" />
+  <circle cx="20" cy="15" r="4" fill="#27272a" />
+  <circle cx="34" cy="15" r="4" fill="#3f3f46" />
+  <circle cx="48" cy="15" r="4" fill="#52525b" />
+  <text x="70" y="19" class="term-header">6sLOGAN78@MAURYA-OS: ~ (bash - 80x24)</text>
+
+  <!-- Main Terminal Body -->
+  <g transform="translate(25, 45)">
+    <!-- ASCII Title Header -->
+    <text x="0" y="15" class="term-ascii">
+   _____  _____  _      ____   _____    _   _ _____  ___  
+  / ____|/ ____|| |    / __ \ / ____|  | \ | |___  |( _ ) 
+ |  ___ | (___  | |   | |  | | |  __   |  \| |  / / / _ \ 
+ | |_| | \___ \ | |___| |__| | |__| |  | |\  | / / ( (_) )
+  \____/|_____/ |______\____/ \____|  |_| \_|/_/   \___/ 
+    </text>
+
+    <!-- Interactive Terminal Prompt Lines -->
+    <g transform="translate(380, 10)">
+      <text x="0" y="12" class="term-text">
+        <tspan x="0" dy="0">$ <tspan class="term-cmd">cat /etc/profile.sys</tspan></tspan>
+        <tspan x="0" dy="16">&gt; IDENTITY: <tspan class="term-accent">AI/ML ENGINEER &amp; BACKEND ARCHITECT</tspan></tspan>
+        <tspan x="0" dy="16">&gt; STATUS: <tspan class="term-cmd">ONLINE</tspan> // COMPILING CONCURRENT PIPELINES</tspan>
+      </text>
+
+      <text x="0" y="70" class="term-text">
+        <tspan x="0" dy="0">$ <tspan class="term-cmd">systemctl status spotify wakatime</tspan></tspan>
+        <tspan x="0" dy="16">&gt; SPOTIFY: <tspan class="term-accent">ACTIVE</tspan> [MONOCHROME_AUDIO_STREAM]</tspan>
+        <tspan x="0" dy="16">&gt; WAKATIME: <tspan class="term-accent">TRACKING</tspan> [PYTHON • GO • C++] <rect x="290" y="32" class="cursor" width="7" height="12" /></tspan>
+      </text>
+    </g>
+  </g>
+</svg>
