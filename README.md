@@ -9,9 +9,16 @@
 </p>
 
 <p align="center">
+  <a href="https://thelearningcurvenjack.substack.com"><img src="https://img.shields.io/badge/The_Learning_Curve-000000?style=for-the-badge&amp;logo=substack&amp;logoColor=white" alt="The Learning Curve on Substack" /></a>
+  <a href="https://github.com/6sLOGAN78?tab=repositories"><img src="https://img.shields.io/github/followers/6sLOGAN78?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;label=FOLLOWERS&amp;labelColor=000000&amp;color=27272a" alt="GitHub followers" /></a>
+</p>
+
+<p align="center">
   <a href="#profile">Profile</a> •
   <a href="#telemetry-statistics">Telemetry</a> •
   <a href="#language-distribution">Languages</a> •
+  <a href="#selected-systems">Systems</a> •
+  <a href="#writing">Writing</a> •
   <a href="#architecture--domains">Stack</a> •
   <a href="#terminal-connections">Connections</a>
 </p>
@@ -27,6 +34,7 @@ I am an engineer specializing in **AI/ML systems** and **backend infrastructure*
 - ⚡ **Focus Areas**: Deep Learning Architecture, Distributed Systems, Low-Latency Networking
 - 🧠 **Research & Dev**: Custom Transformer Pipelines, C++ CUDA Accelerators, Go Microservices
 - 🛠️ **Design Philosophy**: Minimalist, High-Performance, Mathematically Rigorous
+- ✍️ **Writing**: Contributor at [The Learning Curve](https://thelearningcurvenjack.substack.com), the tech magazine run by NJACK, IIT Patna
 
 ---
 
@@ -51,6 +59,33 @@ I am an engineer specializing in **AI/ML systems** and **backend infrastructure*
 <p align="center">
   <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=6sLOGAN78&amp;layout=donut&amp;bg_color=030303&amp;title_color=ffffff&amp;text_color=a1a1aa&amp;border_color=27272a&amp;border_radius=8" />
   <img height="175em" src="https://github-readme-stats.vercel.app/api?username=6sLOGAN78&amp;show_icons=true&amp;bg_color=030303&amp;title_color=ffffff&amp;text_color=a1a1aa&amp;icon_color=ffffff&amp;border_color=27272a&amp;border_radius=8" />
+</p>
+
+---
+
+## Selected Systems
+
+| System | What it is | Stack |
+| :-- | :-- | :-- |
+| [**devRAG**](https://github.com/6sLOGAN78/devRAG) | Enterprise RAG with hybrid BM25 + dense retrieval, reranking, tenant isolation and RBAC | `Go` `Python` |
+| [**RedrobRanker**](https://github.com/6sLOGAN78/RedrobRanker) | CPU-optimized 11-stage candidate ranking engine: BM25 + FAISS, cross-encoder reranking, local LLM rationales | `Python` |
+| [**NetSure**](https://github.com/6sLOGAN78/NetSure) | Network intrusion detection pipeline on CICIDS2017 with DVC, MLflow and Optuna-tuned XGBoost | `Python` `Docker` |
+| [**SiLabs**](https://github.com/6sLOGAN78/SiLabs) | EFR32/ESP32 ICU telemetry with a stacking meta neural network for triage | `C` |
+| [**protask**](https://github.com/6sLOGAN78/protask) | Task management on a Go (Echo) REST API with PostgreSQL, Redis queues and a React SPA | `Go` `TypeScript` |
+| [**show-its-work**](https://github.com/6sLOGAN78/show-its-work) | Deterministic KPI diagnosis engine where the LLM never computes a number | `Python` |
+
+---
+
+## Writing
+
+I write for [**The Learning Curve**](https://thelearningcurvenjack.substack.com), the Substack tech magazine run by NJACK, the computing club of IIT Patna.
+
+<!-- SUBSTACK:START -->
+- <a href="https://thelearningcurvenjack.substack.com/p/robotics-step-one"><b>Robotics, Step One</b></a>
+<!-- SUBSTACK:END -->
+
+<p align="left">
+  <a href="https://thelearningcurvenjack.substack.com/subscribe"><img src="https://img.shields.io/badge/Subscribe_on_Substack-000000?style=for-the-badge&amp;logo=substack&amp;logoColor=white" alt="Subscribe to The Learning Curve" /></a>
 </p>
 
 ---
