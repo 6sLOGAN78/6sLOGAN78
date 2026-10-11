@@ -28,14 +28,14 @@
 
   <g transform="translate(0, 15)">
     <circle cx="150" cy="135" r="70" fill="none" stroke="#18181b" stroke-width="26" />
-    <path d="M 150.00 65.00 A 70 70 0 0 1 195.13 188.51" fill="none" stroke="#ffffff" stroke-width="26" />
-    <path d="M 195.13 188.51 A 70 70 0 0 1 116.43 196.43" fill="none" stroke="#d4d4d8" stroke-width="26" />
-    <path d="M 116.43 196.43 A 70 70 0 0 1 80.04 132.69" fill="none" stroke="#a1a1aa" stroke-width="26" />
-    <path d="M 80.04 132.69 A 70 70 0 0 1 104.19 82.07" fill="none" stroke="#71717a" stroke-width="26" />
-    <path d="M 104.19 82.07 A 70 70 0 0 1 138.93 65.88" fill="none" stroke="#52525b" stroke-width="26" />
-    <path d="M 138.93 65.88 A 70 70 0 0 1 150.00 65.00" fill="none" stroke="#3f3f46" stroke-width="26" />
+    <path d="M 150.00 65.00 A 70 70 0 0 1 198.89 185.10" fill="none" stroke="#ffffff" stroke-width="26" />
+    <path d="M 198.89 185.10 A 70 70 0 0 1 114.98 195.61" fill="none" stroke="#d4d4d8" stroke-width="26" />
+    <path d="M 114.98 195.61 A 70 70 0 0 1 80.18 130.00" fill="none" stroke="#a1a1aa" stroke-width="26" />
+    <path d="M 80.18 130.00 A 70 70 0 0 1 104.93 81.44" fill="none" stroke="#71717a" stroke-width="26" />
+    <path d="M 104.93 81.44 A 70 70 0 0 1 138.76 65.91" fill="none" stroke="#52525b" stroke-width="26" />
+    <path d="M 138.76 65.91 A 70 70 0 0 1 150.00 65.00" fill="none" stroke="#3f3f46" stroke-width="26" />
     <circle cx="150" cy="135" r="54" fill="#030303" stroke="#27272a" stroke-width="1" />
-    <text x="150" y="134" class="center-title">19</text>
+    <text x="150" y="134" class="center-title">20</text>
     <text x="150" y="148" class="center-sub">PUBLIC REPOS</text>
   </g>
 
@@ -43,44 +43,44 @@
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="10" height="10" rx="2" fill="#ffffff" />
       <text x="18" y="9" class="label">Python</text>
-      <text x="280" y="9" class="percent" text-anchor="end">38.8%</text>
+      <text x="280" y="9" class="percent" text-anchor="end">37.7%</text>
       <rect x="110" y="2" width="115" height="6" class="bar-bg" />
-      <rect x="110" y="2" width="44.68" height="6" rx="3" fill="#ffffff" />
+      <rect x="110" y="2" width="43.35" height="6" rx="3" fill="#ffffff" />
     </g>
     <g transform="translate(0, 24)">
       <rect x="0" y="0" width="10" height="10" rx="2" fill="#d4d4d8" />
       <text x="18" y="9" class="label">Go</text>
-      <text x="280" y="9" class="percent" text-anchor="end">19.1%</text>
+      <text x="280" y="9" class="percent" text-anchor="end">20.6%</text>
       <rect x="110" y="2" width="115" height="6" class="bar-bg" />
-      <rect x="110" y="2" width="21.98" height="6" rx="3" fill="#d4d4d8" />
+      <rect x="110" y="2" width="23.74" height="6" rx="3" fill="#d4d4d8" />
     </g>
     <g transform="translate(0, 48)">
       <rect x="0" y="0" width="10" height="10" rx="2" fill="#a1a1aa" />
       <text x="18" y="9" class="label">TypeScript</text>
-      <text x="280" y="9" class="percent" text-anchor="end">17.6%</text>
+      <text x="280" y="9" class="percent" text-anchor="end">17.8%</text>
       <rect x="110" y="2" width="115" height="6" class="bar-bg" />
-      <rect x="110" y="2" width="20.20" height="6" rx="3" fill="#a1a1aa" />
+      <rect x="110" y="2" width="20.47" height="6" rx="3" fill="#a1a1aa" />
     </g>
     <g transform="translate(0, 72)">
       <rect x="0" y="0" width="10" height="10" rx="2" fill="#71717a" />
       <text x="18" y="9" class="label">C</text>
-      <text x="280" y="9" class="percent" text-anchor="end">13.1%</text>
+      <text x="280" y="9" class="percent" text-anchor="end">12.7%</text>
       <rect x="110" y="2" width="115" height="6" class="bar-bg" />
-      <rect x="110" y="2" width="15.09" height="6" rx="3" fill="#71717a" />
+      <rect x="110" y="2" width="14.64" height="6" rx="3" fill="#71717a" />
     </g>
     <g transform="translate(0, 96)">
       <rect x="0" y="0" width="10" height="10" rx="2" fill="#52525b" />
       <text x="18" y="9" class="label">JavaScript</text>
-      <text x="280" y="9" class="percent" text-anchor="end">8.8%</text>
+      <text x="280" y="9" class="percent" text-anchor="end">8.6%</text>
       <rect x="110" y="2" width="115" height="6" class="bar-bg" />
-      <rect x="110" y="2" width="10.15" height="6" rx="3" fill="#52525b" />
+      <rect x="110" y="2" width="9.85" height="6" rx="3" fill="#52525b" />
     </g>
     <g transform="translate(0, 120)">
       <rect x="0" y="0" width="10" height="10" rx="2" fill="#3f3f46" />
       <text x="18" y="9" class="label">Other</text>
-      <text x="280" y="9" class="percent" text-anchor="end">2.5%</text>
+      <text x="280" y="9" class="percent" text-anchor="end">2.6%</text>
       <rect x="110" y="2" width="115" height="6" class="bar-bg" />
-      <rect x="110" y="2" width="2.91" height="6" rx="3" fill="#3f3f46" />
+      <rect x="110" y="2" width="2.95" height="6" rx="3" fill="#3f3f46" />
     </g>
   </g>
 
