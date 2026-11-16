@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://ayush-maurya.ayush-maurya-portfolio.workers.dev"><img src="https://img.shields.io/badge/Portfolio-FF5A1F?style=for-the-badge&amp;logo=cloudflare&amp;logoColor=white" alt="Portfolio website" /></a>
   <a href="https://thelearningcurvenjack.substack.com"><img src="https://img.shields.io/badge/The_Learning_Curve-000000?style=for-the-badge&amp;logo=substack&amp;logoColor=white" alt="The Learning Curve on Substack" /></a>
   <a href="https://github.com/6sLOGAN78?tab=repositories"><img src="https://img.shields.io/github/followers/6sLOGAN78?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;label=FOLLOWERS&amp;labelColor=000000&amp;color=27272a" alt="GitHub followers" /></a>
 </p>
@@ -34,6 +35,7 @@ I am an engineer specializing in **AI/ML systems** and **backend infrastructure*
 - ⚡ **Focus Areas**: Deep Learning Architecture, Distributed Systems, Low-Latency Networking
 - 🧠 **Research & Dev**: Custom Transformer Pipelines, C++ CUDA Accelerators, Go Microservices
 - 🛠️ **Design Philosophy**: Minimalist, High-Performance, Mathematically Rigorous
+- 🌐 **Portfolio**: [ayush-maurya.ayush-maurya-portfolio.workers.dev](https://ayush-maurya.ayush-maurya-portfolio.workers.dev) — projects, journey and writing in one place
 - ✍️ **Writing**: Contributor at [The Learning Curve](https://thelearningcurvenjack.substack.com), the tech magazine run by NJACK, IIT Patna
 
 ---
